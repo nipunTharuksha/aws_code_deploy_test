@@ -12,4 +12,4 @@ phases:
     commands:
       - echo Build completed on `date`
       - echo Deploying to AWS S3...
-      - aws s3 sync dist/ s3://aws-code-deploy-test2/
+      - aws s3 sync dist/ s3://aws-code-deploy-test2/*
